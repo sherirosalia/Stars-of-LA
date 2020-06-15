@@ -19,11 +19,11 @@ Click on this <a href='https://sherirosalia.github.io/stars_of_LA/'><strong>link
  
 ### File Structure
 All csv files in 'csv' folder.
-Initial csv file named: 'la_clean.csv' generated in Yelp api project repository <a href="">here</a>
+Initial csv file named: 'la_clean.csv' generated in Yelp api <a href="https://github.com/sherirosalia/LA_Restaurants_Yelp_API">project repository</a> and the findings are deployed on an <a href="https://sherirosalia.github.io/LA_Restaurants_Yelp_API/">interactive map</a>.
 Jupyter .ipynb files in 'noteook' directory.
 Readme images and index.html in root folder
 
-### LA Map
+### Ratings, Reviews and Zipcodes
 ![](LA_restaurants.png)
 
 ### Brews Brits & Bubbles
