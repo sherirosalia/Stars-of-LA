@@ -9,7 +9,7 @@ Interactive map plot of Los Angeles, CA restaurants that appear on Yelp. The dat
 Work in progress
 
 ### Deployed on Github Pages
-Click on this <a href='https://sherirosalia.github.io/stars_of_LA/'><strong>link </strong></a>to see deployment. 
+Click on this <a href='https://sherirosalia.github.io/stars-of-LA'><strong>link </strong></a>to see deployment. 
 
 ### Frameworks
  Python Pandas
