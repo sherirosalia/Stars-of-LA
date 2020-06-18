@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#la_map {
+
+    width: 400px;
+}
+img{
+    margin-top: .5em;
+}
+#mid_content {
+    padding: 1em;
+}
