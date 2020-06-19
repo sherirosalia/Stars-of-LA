@@ -15,8 +15,8 @@
       <div class="container-fluid">
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4">Want to chow down in L.A.?</h1>
+            <p class="lead">Explore your options.</p>
           </div>
         </div>
           
@@ -27,32 +27,48 @@
         <div class="container" id='intro'>
           <div class="row">
             <div class="col-md-12 col-sm-6">
-              <h3>Want to chow down in L.A.?</h3>
-              <p>There are plenty of options and a lot of information courtesy of the Yelp developer api.
-                The script for the api pull and plotly map are available in this github repository: <a href="">LA_Restaurants</a> and the 
-              analysis utilizing Python Pandas is in <a href="">stars of la</a>
+              <h3>Star ratings of Los Angeles restaurants</h3>
+              <p>Review and rating data courtesy of the Yelp developer api.
+                The Python and Plotly scripts for the api pull and plotly map (clickable below) are available in this GitHub repository: <a href="https://github.com/sherirosalia/LA_Restaurants_Yelp_API">LA_Restaurants_Yelp_API</a> . 
+               Data cleanup and visualization in Python Pandas notebooks are here: <a href="https://github.com/sherirosalia/stars-of-LA">stars_of_la GitHub repository</a>
               </p>
             </div>
           </div>
         </div>
+
+
+
         <div class="container">
           <div class="row">
             <div class="col-md-12 col-sm-6">
-              <img src="images/la_plt.png"  class="img-fluid" alt="Responsive image" alt="plot of los angeles restaurants">
+              <a href="https://sherirosalia.github.io/LA_Restaurants_Yelp_API/"><img src="images/la_plt.png"  class="img-fluid" alt="Responsive image" alt="plot of los angeles restaurants"></a>
 
             </div>
           </div>
         </div>
       
     </div> 
+
+    <div class="container" id='mid_content'>
+      <div class="row">
+        <div class="col-md-12 col-sm-6">
+          <h5>20,000 restaurants randomly selected.</h5>
+          <p>
+            Yelp's api limits information to 1,000 data points at a time. Since LA is home to 
+            over 300 zipcodes, by using only those that start with 900, information was collected 
+            from the communities closest to city center.
+        
+          </p>
+        </div>
+      </div>
+    </div>
     <div class="container"> 
       <div class="card-group"> 
 
           <!--bootstrap card with 3 horizontal images-->
           <div class="row"> 
-              <div class="card col-md-4"> 
-                  <img class="card-img-top" src= 
-"images/bin_plot.png"> 
+              <div class="card col-md-6"> 
+                  <img class="card-img-top" src="images/bin_plot.png"> 
 
                   <div class="card-body"> 
                       <h5 class="card-title">Compare</h5> 
@@ -60,25 +76,13 @@
                   </div> 
               </div> 
 
-              <div class="card col-md-4"> 
-                  <img class="card-img-top" src= 
-"images/hist.png"> 
+              <div class="card col-md-6"> 
+                  <img class="card-img-top" src="images/hist.png"> 
                     
-                  <div class="card-body"> 
-                      <h5 class="card-title text-primary">Placement</h5> 
-                      <p class="card-text">Sudo Placement Course</p> 
-                  </div> 
+
               </div> 
                 
-              <div class="card col-md-4"> 
-                  <img class="card-img-top" src= 
-"images/scat_plot.png"> 
-                    
-                  <div class="card-body"> 
-                      <h5 class="card-title">DSA</h5> 
-                      <p class="card-text">DS & Algo Course</p> 
-                  </div> 
-              </div> 
+
           </div> 
       </div> 
   </div> 
@@ -101,8 +105,7 @@
         <!--bootstrap card with 3 horizontal images-->
         <div class="row"> 
             <div class="card col-md-4"> 
-                <img class="card-img-top" src= 
-"LA_restaurants.png"> 
+                <img class="card-img-top" src= "LA_restaurants.png"> 
 
                 <div class="card-body"> 
                     <h5 class="card-title">Compare</h5> 
@@ -111,18 +114,20 @@
             </div> 
 
             <div class="card col-md-4"> 
-                <img class="card-img-top" src= 
-"images/zip_tide.png"> 
+                <img class="card-img-top" src="images/zip_tide.png"> 
                   
                 <div class="card-body"> 
-                    <h5 class="card-title">Placement</h5> 
-                    <p class="card-text">Sudo Placement Course</p> 
+                    <h5 class="card-title">Love or Hate?</h5> 
+                    <p class="card-text">The least frequent rating is between
+                      2.5 and 3. Perhaps that range suggesting that participants didn't find that range
+                      to accurately express sentiments.
+
+                    </p> 
                 </div> 
             </div> 
               
             <div class="card col-md-4"> 
-                <img class="card-img-top" src= 
-"images/persian.png"> 
+                <img class="card-img-top" src="images/scat_plot.png"> 
                   
                 <div class="card-body"> 
                     <h5 class="card-title">DSA</h5> 
@@ -133,12 +138,11 @@
     </div> 
 </div> 
 
-
 <div class="container" id='mid_content'>
   <div class="row">
     <div class="col-md-12 col-sm-6">
       <h5>Want to chow down in L.A.?</h5>
-      <p>There are plenty of options and a lot of information courtesy of the Yelp developer api.
+      <p>The best stories are bad decisions. re are plenty of options and a lot of information courtesy of the Yelp developer api.
         The script for the api pull and plotly map are available in this github repository: <a href="">LA_Restaurants</a> and the 
       analysis utilizing Python Pandas is in <a href="">stars of la</a>
       </p>
@@ -151,9 +155,46 @@
 
       <!--bootstrap card with 3 horizontal images-->
       <div class="row"> 
+          <div class="card col-md-6"> 
+              <img class="card-img-top" src="images/bin_plot.png"> 
+
+              <div class="card-body"> 
+                  <h5 class="card-title">Compare</h5> 
+                  <p class="card-text">JavaScript | Python</p> 
+              </div> 
+          </div> 
+
+          <div class="card col-md-6"> 
+              <img class="card-img-top" src="images/hist.png"> 
+                
+
+          </div> 
+            
+
+      </div> 
+  </div> 
+</div> 
+
+
+<div class="container" id='mid_content'>
+  <div class="row">
+    <div class="col-md-12 col-sm-6">
+      <h5>A score of 4</h5>
+      <p>Stay in business long enough, and it seems that most restaurants will eventually wind up 
+        with a rating of 4, which was the median.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container"> 
+  <div class="card-group"> 
+
+      <!--bootstrap card with 3 horizontal images-->
+      <div class="row"> 
           <div class="card col-md-4"> 
               <img class="card-img-top" src= 
-"LA_restaurants.png"> 
+"images/worst.png"> 
 
               <div class="card-body"> 
                   <h5 class="card-title">Compare</h5> 
@@ -163,7 +204,7 @@
 
           <div class="card col-md-4"> 
               <img class="card-img-top" src= 
-"images/zip_tide.png"> 
+"images/best_reviews.png"> 
                 
               <div class="card-body"> 
                   <h5 class="card-title">Placement</h5> 
@@ -173,7 +214,7 @@
             
           <div class="card col-md-4"> 
               <img class="card-img-top" src= 
-"images/persian.png"> 
+"images/most_reviews.png"> 
                 
               <div class="card-body"> 
                   <h5 class="card-title">DSA</h5> 
