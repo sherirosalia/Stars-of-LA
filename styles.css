@@ -17,10 +17,12 @@ img{
 }
 h2 {
     font-weight: bold;
+    font-size: 150%;
+    
 }
 p {
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-font-size: 19px;
+font-size: 150%;;
 letter-spacing: 0px;
 word-spacing: 0px;
 color: #000000;
