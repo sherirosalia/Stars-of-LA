@@ -21,48 +21,25 @@
         </div>
       </div>
 
+      <div class="container" id='mid_content'>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <h2>20,000 restaurants analyzed</h2>
+            <p>What does rating and review data reveal about the Los Angeles, California food scene? Let's take 
+              a look at data on almost 20,000 eateries retrieved courtesy of the Yelp Developer API which provides 
+              feedback from restaurant patrons via a 1-5 rating scale; 5 being the best. 
+             </p>
+          </div>
+        </div>
+      </div>
+
       <div class="container-fluid"> 
-
-
-        <div class="container" id='intro'>
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-6">
-              <h2>The Data</h2>
-              <p>Ratings, reviews and geographical data were accumulated courtesy of the Yelp developer api.</p>
-              <p>The Python scripts for the api pull and map visualized below live on this Github repository: 
-                <a href="https://github.com/sherirosalia/LA_Restaurants_Yelp_API">LA_Restaurants_Yelp_API</a>
-              </p>
-              <p>Data cleanup and visualization utilizing Python Pandas mostly in Jupyter notebooks are here: <a href="https://github.com/sherirosalia/stars-of-LA">stars_of_la GitHub repository</a></p>
-      
-              <p>The data visualized below is explored in depth in notebooks available in the associated GitHub repository, and the 
-                csv files are also available for download. Please feel free to clone the repository and I would love to 
-                hear about any insights you find in your own analysis. Link to my personal page is below.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="container" id='mid_content'>
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-              <h2>20,000 restaurants analyzed</h2>
-              <p>
-                Data collection was restricted to Los Angeles zipcodes that start with "900"
-                since that seemed like a reasonable way to keep close to city center and due to the way
-                the api works, the resultant collection reflects a random sampling of almost 20,000 establishments
-                from over 150 zipcodes.
-              </p>
-            </div>
-          </div>
-        </div>
-
-
 
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
               <h2>Restaurants Mapped</h2>
-              <p>Map links to a larger version which is zooms and tilts interactively. It shows the average rating for
+              <p>Clicking on this map links to a larger version which is zooms and tilts interactively. It shows the average rating for
                 each restaurant on the map. The ratings system is based on a scale of 1-5; 5 being the "best". 
               </p>
             </div>
@@ -224,16 +201,47 @@
           <div class="col-lg-12 col-md-12 col-sm-12">           
             <img class="card-img-top" src="images/persian.png" alt="map of persian restaurants">               
           </div>
+          <div class="container" id='intro'>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-6">
+                <h2>The Data</h2>
+                <p>Ratings, reviews and geographical data were accumulated courtesy of the Yelp developer api.</p>
+                <p>The Python scripts for the api pull and map visualized below live on this Github repository: 
+                  <a href="https://github.com/sherirosalia/LA_Restaurants_Yelp_API">LA_Restaurants_Yelp_API</a>
+                </p>
+                <p>Data cleanup and visualization utilizing Python Pandas mostly in Jupyter notebooks are here: <a href="https://github.com/sherirosalia/stars-of-LA">stars_of_la GitHub repository</a></p>
+        
+                <p>The data visualized above is explored in depth in notebooks available in the associated GitHub repository, and the 
+                  csv files are also available for download. Please feel free to clone the repository and I would love to 
+                  hear about any insights you find in your own analysis. Link to my personal page is below.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+
           <div class="col-lg-12 col-md-12 col-sm-12">
-            <h2>The limitations, the plan</h2>
+            <h2>The data, it's limitations and what could be next:</h2>
+            <p>
+
+              Detrieval was limited to zipcodes that start with "900". in order to find businesses close to city center and due to the way
+              the api works, the resultant collection reflects a random sampling of almost 20,000 establishments
+              from over 150 zipcodes. The information in this dataset reflects a majority of restaurants,
+              but it might be beneficial to have reviews for all restaurants in the city.
+            </p>
             <p>As is often 
               the case, diving into analysis produces more questions and potentially interesting pursuits than actual conclusions.
-              It is hard to draw conclusions as to the reasons for ratings. It is somewhat subjective by nature, and in               
-              the age of paid social influencers, sometimes even suspect. That being said, there are additonal data 
-              points that can be brought in from the developer api such as price category and the open data program
-              supported by the city of Los Angeles allows substantial demographic content to be incorporated.  The next 
-              step will be to incorporate a few more data points and run the data through some machine learning algorithms 
-              to see what more can be revealed. 
+              Ratings are subjective by nature. It is hard to draw conclusions as to the reasons for them and             
+              the age of paid social influencers, they can be suspect. 
+            </p>
+            <p>
+              In additon to collecting all reviews, additional data points such as price ranking can be retrieved with a little more work
+              from the developer api. Another source of information that may be interesting to incorporate would be demographic
+              data from the City of Los Angeles.
+            </p>
+            <p>
+              The next step in the process is to preprocess this dataset for machine learning and run it through 
+              some al such as Python Scykit tow see what else may be revealed.
             </p>
           </div>
         </div>
