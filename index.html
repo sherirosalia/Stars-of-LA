@@ -19,14 +19,14 @@
             <p class="lead">Analysis of Yelp restaurant ratings.</p>
           </div>
         </div>
-          
+      </div>
 
       <div class="container-fluid"> 
 
 
         <div class="container" id='intro'>
           <div class="row">
-            <div class="col-md-12 col-sm-6">
+            <div class="col-lg-12 col-md-12 col-sm-6">
               <h2>The Data</h2>
               <p>Ratings, reviews and geographical data were accumulated courtesy of the Yelp developer api.</p>
               <p>The Python scripts for the api pull and map visualized below live on this Github repository: 
@@ -34,8 +34,8 @@
               </p>
               <p>Data cleanup and visualization utilizing Python Pandas mostly in Jupyter notebooks are here: <a href="https://github.com/sherirosalia/stars-of-LA">stars_of_la GitHub repository</a></p>
       
-              <p>The data visualized below is explored in depth in the notebooks available in the github, and the 
-                csv files are available for download. Please feel free to clone the repository and I would love to 
+              <p>The data visualized below is explored in depth in notebooks available in the associated GitHub repository, and the 
+                csv files are also available for download. Please feel free to clone the repository and I would love to 
                 hear about any insights you find in your own analysis. Link to my personal page is below.
               </p>
             </div>
@@ -44,7 +44,7 @@
 
         <div class="container" id='mid_content'>
           <div class="row">
-            <div class="col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               <h2>20,000 restaurants analyzed</h2>
               <p>
                 Data collection was restricted to Los Angeles zipcodes that start with "900"
@@ -60,60 +60,62 @@
 
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               <h2>Restaurants Mapped</h2>
-              <p>Map links to a larger version which is zooms and tilts interactively</p>
+              <p>Map links to a larger version which is zooms and tilts interactively. It shows the average rating for
+                each restaurant on the map. The ratings system is based on a scale of 1-5; 5 being the "best". 
+              </p>
             </div>
             <div class="col-md-12 col-sm-12">
-              <a href="https://sherirosalia.github.io/LA_Restaurants_Yelp_API/"><img src="images/la_plt.png"  class="img-fluid" alt="Responsive image" alt="plot of los angeles restaurants"></a>
-
+              <a href="https://sherirosalia.github.io/LA_Restaurants_Yelp_API/"><img src="images/la_plt.png"  class="img-fluid" alt="Responsive image"></a>
             </div>
           </div>
         </div>
 
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               <h2>Ratings Void </h2>
               <p>This histogram reflects total counts of ratings and reveals a gap in 
                 the 2.5 star category. For whatever reason reviewers
                 were inclined to stick with 3 and above on the higher end and only up to 2 on the lower.
               </p>
             </div>
-            <div class="col-md-12 col-sm-12">           
-              <img class="card-img-top" src="images/hist.png">               
+            <div class="col-lg-12 col-md-12 col-sm-12">           
+              <img class="card-img-top" src="images/hist.png"  alt="histogram">               
             </div>
           </div> 
 
             <div class="row">
-            <div class="col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               <h2>Skew towards 4 </h2>
               <p>It seems like establishments that stay in business long enough are likely 
                 to wind up with a rating of about 4. The next series of visualizations show the correlation
                 between review counts and ratings. 
               </p>
+            </div>
              
 
-            <div class="col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               
-              <img class="card-img-top" src="images/scat_plot.png">
+              <img class="card-img-top" src="images/scat_plot.png"  alt="scatter plot">
             </div>
 
-            <div class="col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               
-              <img class="card-img-top" src="images/zip_avg.png">
+              <img class="card-img-top" src="images/zip_avg.png"  alt="average zips">
             </div>
 
-            <div class="col-md-12 col-sm-12">
+            <div class="col-lg-12 col-md-12 col-sm-12">
               
-              <img class="card-img-top" src="images/zip_cnt.png">
+              <img class="card-img-top" src="images/zip_cnt.png"  alt="count by zip">
             </div>
           </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Breaking the mold</h2>
             <p>The outliers are revealing in this analysis. Although there seems to be a virtual tidal pull towards a mean rating 
               of roughly 3.8 - 4.1 if an establishment could stay around long enough, there are a few that managed to
@@ -122,28 +124,28 @@
             </p>
           </div>
 
-          <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Bold and bad</h2>
             <p>One zipcode 90045 stood out from the rest as a hotbed of rotten ratings. It is 
               visually represented in the blue bubble chart above. The light blue circle towards the 
               higher end of the review counts but showing an average rating of approximately 3.
             </p>
           </div>
-          <div class="col-md-12 col-sm-12">           
-            <img class="card-img-top" src="images/bad_zip.png">               
+          <div class="col-lg-12 col-md-12 col-sm-12">           
+            <img class="card-img-top" src="images/bad_zip.png"  alt="map of bad zip jupyter notebook">               
           </div>
         </div> 
-        <div class="col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
           <h2>The worst of the worst</h2>
           <p>This zipcode is also home to what might be the worst restaurant in all of LA, with a 
             whoppingly poor rating average of 1.5, all while continuing to stay in business as reflected by 
             relatively high number of reviews.
           </p>
         </div>
-        <div class="col-md-12 col-sm-12">           
-          <img class="card-img-top" src="images/worst.png">               
+        <div class="col-lg-12 col-md-12 col-sm-12">           
+          <img class="card-img-top" src="images/worst.png"  alt="map of worst restaurants">               
         </div>
-        <div class="col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
           <h2>Captured audience?</h2>
           <p>Digging a little deeper into the zipcode revealed that this is dominated by restaurants 
             catering to the Los Angeles International Airport. Perhaps they are able to sustain 
@@ -152,57 +154,45 @@
             
           </p>
         </div>
-        <div class="col-md-12 col-sm-12">           
-          <img class="card-img-top" src="images/airport.png">               
+        <div class="col-lg-12 col-md-12 col-sm-12">           
+          <img class="card-img-top" src="images/airport.png"  alt="map of airport restaurants">               
         </div>
       </div> 
 
       <div class="container">
         <div class="row">
-          <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Heads above the rest</h2>
             <p>On the positive end of the spectrum are a few places that seem worthy of making a special
               trip to patronize.
             </p>
           </div>
 
-          <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Most reviewed</h2>
             <p>Note that in the light pink and brown scatter plot there is an outlier
               in the average rating of 4 category that has over 17,000 reviews, nearly triple 
               the median of review counts. This turns out to be: "Botega Louie"
             </p>
           </div>
-          <div class="col-md-12 col-sm-12">           
-            <img class="card-img-top" src="images/most_reviews.png">               
+          <div class="col-lg-12 col-md-12 col-sm-12">           
+            <img class="card-img-top" src="images/most_reviews.png"  alt="map of most reviewed restaurants">               
           </div>
         </div> 
-        <div class="col-md-12 col-sm-12">
+        <div class="col-lg-12 col-md-12 col-sm-12">
           <h2>The best</h2>
           <p>Out of 20,000 locations, a few manage to hold on to top ratings, and seem to be spread 
             throughout the city and reflect a variety of cuisines.
           </p>
         </div>
-        <div class="col-md-12 col-sm-12">           
-          <img class="card-img-top" src="images/best_r.png">               
+        <div class="col-lg-12 col-md-12 col-sm-12">           
+          <img class="card-img-top" src="images/best_r.png"  alt="map of best restaurants">               
         </div>
       </div> 
 
       <div class="container">
         <div class="row">
-          <div class="col-md-12 col-sm-12">
-            <h2>Captured audience?</h2>
-            <p>Digging a little deeper into the zipcode revealed that this is dominated by restaurants 
-              catering to the Los Angeles International Airport. Perhaps they are able to sustain 
-              income inspite of poor ratings due to the sheer volume of people with little other option than to 
-              grab a bite close to accomodations or flight times.
-              
-            </p>
-          </div>
-          <div class="col-md-12 col-sm-12">           
-            <img class="card-img-top" src="images/airport.png">               
-          </div>
-          <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Trending </h2>
             <p>Looks like the food categories that are recieving the highest rating are types 
               that might not even have been readily available in the not too distant past such as Poke 
@@ -210,31 +200,31 @@
             </p>
           </div>
           <div class="col-md-12 col-sm-12">           
-            <img class="card-img-top" src="images/best_reviews.png">               
+            <img class="card-img-top" src="images/best_reviews.png"  alt="best reviews">               
           </div>
         </div>
 
-          <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Most loved</h2>
             <p>Seems like LA loves Mexican food more than anything else and the data reveals the number one most popular
             food item: Tacos.              
             </p>
           </div>
-          <div class="col-md-12 col-sm-12">           
-            <img class="card-img-top" src="images/tacos.png">               
+          <div class="col-lg-12 col-md-12 col-sm-12">           
+            <img class="card-img-top" src="images/tacos.png"  alt="map of taco restaurants">               
           </div>
 
-          <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Diverse</h2>
             <p>The diversity of Los Angeles is reflected in the variety of what is available, and 
               it seems like any kind of food is available within a short drive. Here is an example  of what 
               a search for "Persian" food revealed:               
             </p>
           </div>
-          <div class="col-md-12 col-sm-12">           
-            <img class="card-img-top" src="images/persian.png">               
+          <div class="col-lg-12 col-md-12 col-sm-12">           
+            <img class="card-img-top" src="images/persian.png" alt="map of persian restaurants">               
           </div>
-          <div class="col-md-12 col-sm-12">
+          <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>The limitations, the plan</h2>
             <p>As is often 
               the case, diving into analysis produces more questions and potentially interesting pursuits than actual conclusions.
@@ -245,17 +235,14 @@
               step will be to incorporate a few more data points and run the data through some machine learning algorithms 
               to see what more can be revealed. 
             </p>
+          </div>
         </div>
 
 
-
-
-
-
       <footer class="page-footer font-small blue">
-        <div class="footer-copyright text-center py-3">© 2020 Copyright:
-           
-       <a href="http://www.sherirosalia.com"><img src ="images/rose2.jpg" height="20px" width="20px" alt="rose logo">Not So Santa Rosalia</a>
+        <div class="footer-copyright text-center py-3">
+          <p>© 2020 Copyright: <a href="http://www.sherirosalia.com"><img src ="images/rose2.jpg" height="20 px;" width="20 px;" alt="rose logo">Not So Santa Rosalia</a>
+      </p>
        </div>  
 
       </footer>
