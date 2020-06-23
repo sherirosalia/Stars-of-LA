@@ -20,27 +20,31 @@
           </div>
         </div>
       </div>
-
+<!-- jumbotron -->
       <div class="container" id='mid_content'>
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>20,000 restaurants analyzed</h2>
             <p>What does rating and review data reveal about the Los Angeles, California food scene? Let's take 
-              a look at data on almost 20,000 eateries retrieved courtesy of the Yelp Developer API which provides 
-              feedback from restaurant patrons via a 1-5 rating scale; 5 being the best. 
+              a look at data on almost 20,000 eateries which was retrieved courtesy of the Yelp Developer API.</p> 
+              
+             <p>
+              For those of you not familiar with it, Yelp (yelp.com) is a popular review site that uses a 1-5 rating scale; 5 being the best. 
              </p>
           </div>
         </div>
       </div>
 
+<!-- main container -->
       <div class="container-fluid"> 
 
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
               <h2>Restaurants Mapped</h2>
-              <p>Clicking on this map links to a larger version which is zooms and tilts interactively. It shows the average rating for
-                each restaurant on the map. The ratings system is based on a scale of 1-5; 5 being the "best". 
+              <p>Clicking on this map links to a larger, interactive display featuring mouse controlled zoom, rotate and tilt features.
+                It shows the average rating for each restaurant on the map. The ratings system is based on a scale of 1-5; 5 being the "best". 
+                Red represents ratings under 2.5, yellow below 4 and green is for top notch ratings which are either 4.5 or 5.
               </p>
             </div>
             <div class="col-md-12 col-sm-12">
@@ -52,10 +56,10 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-              <h2>Ratings Void </h2>
-              <p>This histogram reflects total counts of ratings and reveals a gap in 
-                the 2.5 star category. For whatever reason reviewers
-                were inclined to stick with 3 and above on the higher end and only up to 2 on the lower.
+              <h2>Ratings Gap </h2>
+              <p>This histogram is reflects the total count of ratings and in so doing reveals a void. Note the dip of 
+                frequency in the 2.5 star category. For whatever reason reviewers
+                were inclined to rate restaurants above 3 or below 2.
               </p>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12">           
@@ -65,10 +69,10 @@
 
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-              <h2>Skew towards 4 </h2>
+              <h2>Skew towards 4</h2>
               <p>It seems like establishments that stay in business long enough are likely 
                 to wind up with a rating of about 4. The next series of visualizations show the correlation
-                between review counts and ratings. 
+                between review counts and ratings.
               </p>
             </div>
              
@@ -94,8 +98,8 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Breaking the mold</h2>
-            <p>The outliers are revealing in this analysis. Although there seems to be a virtual tidal pull towards a mean rating 
-              of roughly 3.8 - 4.1 if an establishment could stay around long enough, there are a few that managed to
+            <p>The outliers reveal a virtual tidal pull towards a mean rating 
+              of roughly 3.8 - 4.1 over time. However, there are a few establishements that have managed to
               defy the odds and either stay in business despite horrible reviews, or maintain top notch ratings along with
               high review counts.
             </p>
@@ -103,9 +107,9 @@
 
           <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Bold and bad</h2>
-            <p>One zipcode 90045 stood out from the rest as a hotbed of rotten ratings. It is 
-              visually represented in the blue bubble chart above. The light blue circle towards the 
-              higher end of the review counts but showing an average rating of approximately 3.
+            <p>Zipcode 90045 stands out as a hotbed of rotten ratings. It is 
+              visually represented as a light blue circle towards the higher end of the review counts but on the lower end of ratings
+              blue bubble chart above.
             </p>
           </div>
           <div class="col-lg-12 col-md-12 col-sm-12">           
@@ -114,8 +118,8 @@
         </div> 
         <div class="col-lg-12 col-md-12 col-sm-12">
           <h2>The worst of the worst</h2>
-          <p>This zipcode is also home to what might be the worst restaurant in all of LA, with a 
-            whoppingly poor rating average of 1.5, all while continuing to stay in business as reflected by 
+          <p>This zipcode is also home to what might be the worst restaurant in all of Los Angeles with a 
+            whoppingly poor average rating of 1.5, yet while continuing to stay in business as reflected by 
             relatively high number of reviews.
           </p>
         </div>
@@ -124,11 +128,9 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12">
           <h2>Captured audience?</h2>
-          <p>Digging a little deeper into the zipcode revealed that this is dominated by restaurants 
-            catering to the Los Angeles International Airport. Perhaps they are able to sustain 
-            income inspite of poor ratings due to the sheer volume of people with little other option than to 
-            grab a bite close to accomodations or flight times.
-            
+          <p>Digging a little deeper into the 90045 revealed that this area is also home to the Los Angeles International Airport and numerous hotels. 
+            Perhaps the sheer volume of people with little other option than to grab a bite close to accomodations or flight times enables 
+            these businesses to stay open despite poor ratings.            
           </p>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12">           
@@ -140,16 +142,17 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Heads above the rest</h2>
-            <p>On the positive end of the spectrum are a few places that seem worthy of making a special
-              trip to patronize.
+            <p>On the positive end of the outlier spectrum are a few places that seem worthy of making a special
+              trip to check out.
             </p>
           </div>
 
           <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Most reviewed</h2>
             <p>Note that in the light pink and brown scatter plot there is an outlier
-              in the average rating of 4 category that has over 17,000 reviews, nearly triple 
-              the median of review counts. This turns out to be: "Botega Louie"
+              category 4 column that has over 17,000 reviews. This is nearly triple 
+              the median of review counts and the turns out to be: "Botega Louie" a patisserie & café 
+              in downtown.
             </p>
           </div>
           <div class="col-lg-12 col-md-12 col-sm-12">           
@@ -158,8 +161,8 @@
         </div> 
         <div class="col-lg-12 col-md-12 col-sm-12">
           <h2>The best</h2>
-          <p>Out of 20,000 locations, a few manage to hold on to top ratings, and seem to be spread 
-            throughout the city and reflect a variety of cuisines.
+          <p>Out of 20,000 locations, a few manage to hold on to top ratings even as review counts climb and the 
+            locations seem to be spread throughout the city and reflect a variety of cuisines.
           </p>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12">           
@@ -171,8 +174,8 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Trending </h2>
-            <p>Looks like the food categories that are recieving the highest rating are types 
-              that might not even have been readily available in the not too distant past such as Poke 
+            <p>Looks like the food categories that are rated highest are types 
+              that might not even have been readily available in the not too distant past such as Poke, Vegan 
               and Halal.               
             </p>
           </div>
@@ -193,9 +196,8 @@
 
           <div class="col-lg-12 col-md-12 col-sm-12">
             <h2>Diverse</h2>
-            <p>The diversity of Los Angeles is reflected in the variety of what is available, and 
-              it seems like any kind of food is available within a short drive. Here is an example  of what 
-              a search for "Persian" food revealed:               
+            <p>The diversity of Los Angeles is reflected in the proximity and variety of options. For example
+            these are "Persian" restaurants:               
             </p>
           </div>
           <div class="col-lg-12 col-md-12 col-sm-12">           
@@ -206,15 +208,13 @@
               <div class="col-lg-12 col-md-12 col-sm-6">
                 <h2>The Data</h2>
                 <p>Ratings, reviews and geographical data were accumulated courtesy of the Yelp developer api.</p>
-                <p>The Python scripts for the api pull and map visualized below live on this Github repository: 
+                <p>The Python scripts for the api and first map is available for download 
+                  in this GitHub repository:  
                   <a href="https://github.com/sherirosalia/LA_Restaurants_Yelp_API">LA_Restaurants_Yelp_API</a>
                 </p>
-                <p>Data cleanup and visualization utilizing Python Pandas mostly in Jupyter notebooks are here: <a href="https://github.com/sherirosalia/stars-of-LA">stars_of_la GitHub repository</a></p>
-        
-                <p>The data visualized above is explored in depth in notebooks available in the associated GitHub repository, and the 
-                  csv files are also available for download. Please feel free to clone the repository and I would love to 
-                  hear about any insights you find in your own analysis. Link to my personal page is below.
-                </p>
+                <p>Clean up, graphs, google maps and csv files were produced using python pandas 
+                  and here is the repository link: <a href="https://github.com/sherirosalia/stars-of-LA">stars_of_la GitHub repository</a></p>
+      
               </div>
             </div>
           </div>
@@ -224,24 +224,23 @@
             <h2>The data, it's limitations and what could be next:</h2>
             <p>
 
-              Detrieval was limited to zipcodes that start with "900". in order to find businesses close to city center and due to the way
-              the api works, the resultant collection reflects a random sampling of almost 20,000 establishments
-              from over 150 zipcodes. The information in this dataset reflects a majority of restaurants,
-              but it might be beneficial to have reviews for all restaurants in the city.
+              Most, but not every location is accounted for in this data set because of the way the Yelp api works. What we have here is a 
+              random sampling of almost 20,000 establishment from over 150 zipcodes but there are likely more than 5,000 restaurants missing. 
+
             </p>
             <p>As is often 
-              the case, diving into analysis produces more questions and potentially interesting pursuits than actual conclusions.
-              Ratings are subjective by nature. It is hard to draw conclusions as to the reasons for them and             
-              the age of paid social influencers, they can be suspect. 
+              the case, diving into analysis produces more questions than actual conclusions.
+              Ratings are subjective by nature. It is hard to be certain as to the reasons for them and in          
+              the age of paid social influencers, their veracity suspect. 
             </p>
             <p>
-              In additon to collecting all reviews, additional data points such as price ranking can be retrieved with a little more work
-              from the developer api. Another source of information that may be interesting to incorporate would be demographic
-              data from the City of Los Angeles.
+              In additon to collecting all reviews, additional data points such as price ranking and/or demographic
+              data from the City of LA may reveal some addtional trends and insights.
             </p>
             <p>
-              The next step in the process is to preprocess this dataset for machine learning and run it through 
-              some al such as Python Scykit tow see what else may be revealed.
+ 
+              
+    
             </p>
           </div>
         </div>
