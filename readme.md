@@ -37,10 +37,8 @@ Inside of the docs folder are images and webpage HTML and CSS files for the webp
 - <a href="https://github.com/sherirosalia/chrome-extension-grub-or-grubby">Chrome Extension Grub or Grubby</a>
 - <a href="https://github.com/sherirosalia/data_rats">Data Girls</a>
 
-
-
-### Review Trend
-![](docs/images/scat_plot.png)
+### Violations on display
+![](docs/images/grubby_nick.png)
 
 
 
