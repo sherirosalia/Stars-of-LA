@@ -31,6 +31,16 @@ Inside of the docs folder are images and webpage HTML and CSS files for the webp
 - folders as described above
 - Readme images and index.html in root folder
 
+### Related repositories:
+- <a href="https://github.com/sherirosalia/LA_Restaurants_Yelp_API">LA Restaurants Yelp API</a>
+- <a href="https://github.com/sherirosalia/Dirty_Rats_Machine_Learning">Dirty Rats Machine Learning</a>
+- <a href="https://github.com/sherirosalia/chrome-extension-grub-or-grubby">Chrome Extension Grub or Grubby</a>
+- <a href="https://github.com/sherirosalia/data_rats">Data Girls</a>
+
+
+
 ### Review Trend
 ![](docs/images/scat_plot.png)
+
+
 
