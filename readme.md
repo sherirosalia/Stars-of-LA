@@ -24,7 +24,7 @@ Click on this <a href='https://sherirosalia.github.io/Stars-of-LA'><strong>link 
  ### Limitation of the dataset
  Data is dependent on what was retrieved from Yelp which does limit the amount of data developers can access and may not be a comprehensive reflection of all Los Angeles establishments. This being said, the number of data points is well above 20k and likely provides a large enough sampling to statistically represent the Los Angeles, California market.
 
- ### Persians represent!
+ ### Persian eateries represented citywide.
 ![](docs/images/persian.png)
  
 ### File Structure
@@ -51,7 +51,7 @@ Inside of the docs folder are images, HTML and CSS files for the linked page whi
 - <a href="https://github.com/sherirosalia/chrome-extension-grub-or-grubby">Chrome Extension Grub or Grubby</a>
 - <a href="https://github.com/sherirosalia/data_rats">Data Girls</a>
 
-### Outlier zipcode?
+### Outlier zipcode analyzed.
 ![](docs/images/zip_avg.png)
 
 
